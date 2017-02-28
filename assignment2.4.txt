@@ -1,0 +1,20 @@
+
+1. Explain the importance of Name node in Hadoop cluster
+
+
+*NameNode is also referred as the Master of hadoop cluster.
+
+*The centerpiece of  HDFS is the NameNode. 
+
+*The actual data is not stored in the namenode.Rather the data is stored in the DataNodes.
+
+*A single point of failure in Hadoop cluster is the NameNode.
+
+*Only the data metadata information of HDFS is stored in NameNode.
+
+*Since the block locations help in main memory NameNode is usually configured with large amount of memory(RAM).
+
+*It stores the information about the data nodes like how many blocks are stored in the nodes,which node holds the 
+data,node locations etc.
+
+
